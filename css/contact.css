@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700');
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('police/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+}
+body {
+    padding-top: 50px;
+
+}
+.cadreCV {
+    padding-bottom: 15px;
+    background: white;
+}
+
+input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+    font-family: 'Poppins', sans-serif;
+}
+#subject{
+    font-family: 'Poppins', sans-serif;
+}
+.monbouton{
+    font-family: 'Poppins', sans-serif;
+}
+label{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit] {
+    background-color: #1255a2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #1872D9;
+}
+
+.container2 {
+    /* Ajouter box-sizing */
+    box-sizing : border-box;
+    border-radius:5px;
+    background-color:white;
+    padding:20px;
+    width: 100%;
+    /* redéfinition 400 + 2*20 */
+    max-width: 800px;
+    margin:0 auto;
+}
+h1  {
+    color: black;
+    width: 100%;
+    text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+    height: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 100vw;
+    margin-block: 0em;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border: 0.10em solid grey;
+    border-radius: 100vw;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+
+}
+section .title::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: crimson;
+    transform: translateX(-50%);
+}
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: crimson;
+    transform: translateX(-50%);
+}
+.monbouton{
+    background-color: crimson;
+    color: #fff;
+    border-radius : 5px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.monbouton:hover{
+    color: crimson;
+    background: none;
+}
